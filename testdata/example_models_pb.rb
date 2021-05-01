@@ -10,8 +10,10 @@ class Example::Request
   attribute :name, String, description: ""
   attribute :context, T.nilable(Common::Context), description: ""
 end
+
 class Example::Response
   include ActiveModel::Model
   
   attribute :greeting, String, description: ""
 end
+
