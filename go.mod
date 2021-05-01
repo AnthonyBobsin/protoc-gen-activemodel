@@ -1,5 +1,5 @@
-module github.com/AnthonyBobsin/protoc-gen-active-model
+module github.com/AnthonyBobsin/protoc-gen-activemodel
 
 go 1.16
 
-require github.com/lyft/protoc-gen-star v0.5.2 // indirect
+require github.com/lyft/protoc-gen-star v0.5.2
