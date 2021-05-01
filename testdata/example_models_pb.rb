@@ -16,4 +16,3 @@ class Example::Response
   
   attribute :greeting, String, description: ""
 end
-

@@ -9,4 +9,3 @@ class Common::Context
   
   attribute :context_id, Integer, description: ""
 end
-
