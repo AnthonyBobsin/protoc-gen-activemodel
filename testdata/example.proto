@@ -1,9 +1,12 @@
 syntax = "proto3";
 
+import "common.proto";
+
 package example;
 
 message Request {
   string name = 1;
+  common.Context context = 2;
 }
 
 message Response {

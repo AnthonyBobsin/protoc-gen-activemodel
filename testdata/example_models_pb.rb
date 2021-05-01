@@ -2,23 +2,16 @@
 # frozen_string_literal: true
 # source: example.proto
 
-
 module Example; end
-
 
 class Example::Request
   include ActiveModel::Model
-
   
   attribute :name, String, description: ""
-  
+  attribute :context, T.nilable(Common::Context), description: ""
 end
-
 class Example::Response
   include ActiveModel::Model
-
   
   attribute :greeting, String, description: ""
-  
 end
-

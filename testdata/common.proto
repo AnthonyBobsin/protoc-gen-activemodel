@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+package common;
+
+message Context {
+  int64 context_id = 1;
+}
